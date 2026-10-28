@@ -34,7 +34,7 @@ Phù hợp khi bạn muốn theo dõi nhiều luồng nội dung mà không ph�
 | 🔄 | **Kiểm tra cập nhật** | Kiểm tra phiên bản mới thông qua GitHub Releases. |
 
 DEMO MULTI-VIEW
-<img width="936" height="542" alt="image" src="https://github.com/user-attachments/assets/7a4c7ab2-d97a-4219-8763-3dd630d9c8b5" />
+<img width="928" height="540" alt="image" src="https://github.com/user-attachments/assets/024a369b-2655-4d57-ad4c-8132cad0fcf1" />
 
 
 ## 📥 Cài đặt
