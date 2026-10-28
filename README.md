@@ -1,17 +1,16 @@
 <div align="center">
 
-# 🎬 Smart PiP
+# Smart PiP
 
-### Multi-Video Picture-in-Picture for Chromium Browsers
+**Xem nhiều video. Trong một cửa sổ nổi. Không gián đoạn công việc.**
 
-**Xem được nhiều video cùng lúc trong một cửa sổ PIP.**
+Tiện ích Picture-in-Picture dành cho trình duyệt Chromium, hỗ trợ gom tối đa **4 video** vào một giao diện Multi-View.
 
-[![Version](https://img.shields.io/badge/version-v2.0.0-blue?style=flat-square)](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases/tag/v2.0.0)
-![Manifest V3](https://img.shields.io/badge/Manifest-V3-097969?style=flat-square)
-![Platform](https://img.shields.io/badge/Chromium-Chrome%20%7C%20Edge%20%7C%20Brave-orange?style=flat-square)
-[![Latest Release](https://img.shields.io/github/v/release/viettd14/Smart-PiP-Extension-Chromium?label=latest%20release&style=flat-square)](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/viettd14/Smart-PiP-Extension-Chromium?label=Stable%20Release)](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases/latest)
+![Platform](https://img.shields.io/badge/Platform-Chromium-4285F4)
+![Manifest](https://img.shields.io/badge/Manifest-V3-6A5ACD)
 
-**[📥 Download latest release](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases/latest)** · **[📋 Release notes](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases)** · **[🐛 Report an issue](https://github.com/viettd14/Smart-PiP-Extension-Chromium/issues)**
+[**Tải phiên bản mới nhất**](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases/latest) · [**Xem lịch sử phát hành**](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases) · [**Báo lỗi / Đề xuất**](https://github.com/viettd14/Smart-PiP-Extension-Chromium/issues)
 
 </div>
 
@@ -19,107 +18,57 @@
 
 ## ✨ Giới thiệu
 
-**Smart PiP** là tiện ích mở rộng cho các trình duyệt dựa trên Chromium, giúp đưa video vào cửa sổ nổi **Picture-in-Picture** để vừa xem vừa làm việc. Phiên bản **v2.0.0** bổ sung **Multi-PiP**, cho phép gom tối đa **4 video tương thích** vào một giao diện Multi-View.
+**Smart PiP** giúp bạn theo dõi video trong một cửa sổ nổi khi chuyển tab hoặc làm việc với ứng dụng khác. Thay vì chỉ xem một video như Picture-in-Picture thông thường, **Multi-PiP** trên phiên bản **v2.0.0** cho phép tập hợp tối đa **4 video tương thích** vào một bố cục Multi-View.
 
-> **Demo giao diện:** Thêm ảnh chụp hoặc GIF thực tế vào `assets/demo-multipip.gif`, sau đó bỏ dấu chú thích ở dòng dưới để hiển thị.
->
-> `![Smart PiP Multi-View Demo](assets/demo-multipip.gif)`
+Phù hợp khi bạn muốn theo dõi nhiều luồng nội dung mà không phải liên tục chuyển qua lại giữa các tab.
 
-## 🚀 Tính năng
+## 🚀 Tính năng nổi bật
 
-| Nhóm | Khả năng |
-| --- | --- |
-| 🪟 **Floating player** | Xem video trong cửa sổ nổi khi chuyển sang ứng dụng hoặc tab khác. |
-| 🎞️ **Multi-PiP** | Gom tối đa 4 video từ các tab tương thích vào một cửa sổ Multi-View. |
-| ⏯️ **Playback controls** | Play/Pause, tua ±10 giây và theo dõi tiến trình phát. |
-| 🔊 **Audio controls** | Mute/Unmute, thay đổi âm lượng và tốc độ phát. |
-| 💬 **Subtitles** | Ưu tiên duy trì phụ đề khi trình phát/website hỗ trợ. |
-| ⚙️ **Player options** | Hỗ trợ lựa chọn chất lượng khi trình phát cho phép. |
-| 🔔 **Update checker** | Kiểm tra phiên bản mới qua GitHub Releases trong **Options → Updates**. |
+| | Tính năng | Mô tả |
+|---|---|---|
+| 🪟 | **Cửa sổ nổi** | Giữ video hiển thị trong khi làm việc ở tab khác. |
+| 🎬 | **Multi-PiP (tối đa 4 video)** | Gom các video tương thích vào cùng một cửa sổ Multi-View. |
+| 🖱️ | **Thao tác nhanh** | Thêm video từ các tab tương thích bằng biểu tượng extension. |
+| ⏯️ | **Điều khiển phát** | Play/Pause, tua, âm lượng và tốc độ phát; mức hỗ trợ tùy video. |
+| 💬 | **Phụ đề** | Ưu tiên hiển thị phụ đề trên YouTube và một số trình phát HTML5 tương thích. |
+| 🔄 | **Kiểm tra cập nhật** | Kiểm tra phiên bản mới thông qua GitHub Releases. |
 
-## 📦 Cài đặt
+## 📥 Cài đặt
 
-Hiện Smart PiP được cài bằng cách **Load unpacked** (không cần Chrome Web Store).
+1. Mở [**Releases**](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases/latest) và tải **gói cài đặt ZIP của Smart PiP**, nếu được đính kèm trong phần **Assets**.
+2. Giải nén vào một thư mục cố định trên máy.
+3. Mở trang quản lý extension của trình duyệt:
+   - Chrome: `chrome://extensions`
+   - Edge: `edge://extensions`
+   - Brave: `brave://extensions`
+4. Bật **Developer mode** → chọn **Load unpacked** → chọn thư mục chứa `manifest.json`.
+5. Ghim Smart PiP lên thanh công cụ để sử dụng thuận tiện hơn.
 
-1. Mở trang **[Releases](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases/latest)**, tải **file ZIP bản cài đặt** nếu release có đính kèm file này. **Không sử dụng `Source code (zip)` tự động do GitHub tạo** thay cho bản cài đặt nếu repository chưa chứa mã nguồn tương ứng.
-2. Giải nén vào một thư mục cố định; kiểm tra thư mục đó có file **`manifest.json`**.
-3. Mở `chrome://extensions`, `edge://extensions` hoặc `brave://extensions`.
-4. Bật **Developer mode** → **Load unpacked** → chọn thư mục chứa `manifest.json`.
-5. Mở trang video tương thích, nhấn biểu tượng **Smart PiP** trên thanh công cụ.
+> **Lưu ý:** Các mục **Source code (zip)** / **Source code (tar.gz)** do GitHub tự tạo không nhất thiết là gói cài đặt extension. Hãy chọn file cài đặt được đính kèm riêng trong Assets (nếu có).
 
-> **Lưu ý tải xuống:** Nếu trang Releases hiện chưa có file ZIP cài đặt riêng trong **Assets**, cần bổ sung file ZIP extension v2.0.0 vào release. Mục `Source code (zip)` của GitHub chỉ đóng gói nội dung tại commit gắn tag.
+## 🎮 Cách sử dụng
 
-### Nâng cấp
+1. Mở trang video tương thích (ưu tiên YouTube).
+2. Nhấn biểu tượng **Smart PiP** để bắt đầu xem trong cửa sổ nổi.
+3. Mở thêm video ở tab khác rồi nhấn biểu tượng Smart PiP để đưa vào Multi-View.
+4. Sử dụng các điều khiển có sẵn để quản lý từng video.
 
-Sao lưu nếu có thay đổi cục bộ, đóng cửa sổ PiP, giải nén bản mới và chép đè đúng thư mục extension đã cài → truy cập trang `extensions` → nhấn **Reload**. Sau đó refresh lại các tab đang mở video.
+## 🧩 Multi-PiP hoạt động thế nào?
 
-## 🧭 Cách sử dụng Multi-PiP
+Smart PiP sử dụng **Document Picture-in-Picture** để hiển thị giao diện nổi. Với nhiều video, extension kết hợp cơ chế truyền luồng video từ các tab tương thích vào giao diện Multi-View. Vì vậy, đây **không phải bốn cửa sổ native PiP độc lập**.
 
-1. Mở video đầu tiên trong tab tương thích, nhấn biểu tượng Smart PiP để khởi tạo cửa sổ nổi.
-2. Mở những video tiếp theo trên tab khác, nhấn biểu tượng Smart PiP để thêm vào Multi-View (tối đa 4 video).
-3. Điều khiển phát video trực tiếp trong giao diện nổi, tùy theo khả năng của từng trình phát.
+**Giới hạn hiện tại:** Chất lượng hình ảnh có thể phụ thuộc vào nguồn video, trình duyệt và khả năng truyền luồng; một số trang sử dụng DRM hoặc trình phát đặc biệt có thể không hỗ trợ đầy đủ. Khi đóng tab nguồn, video tương ứng có thể ngừng phát. Một số tính năng phụ đề và điều khiển phụ thuộc vào website.
 
-### Multi-PiP hoạt động như thế nào?
+## 🛠️ Phản hồi & phát triển
 
-Smart PiP dùng **Document Picture-in-Picture** để hiển thị giao diện nổi. Khi bổ sung video từ tab khác, extension dùng cơ chế **capture/stream và WebRTC** để truyền video vào Hub. Vì vậy, đây là **một cửa sổ PiP chứa nhiều luồng**, không phải bốn cửa sổ PiP độc lập.
+Gặp lỗi hoặc có ý tưởng cải tiến? Hãy tạo một [**Issue**](https://github.com/viettd14/Smart-PiP-Extension-Chromium/issues) và mô tả trình duyệt, website video, các bước tái hiện và kết quả mong muốn.
 
-```text
-Tab video #1 ──────┐
-Tab video #2 ──────┤
-Tab video #3 ──────┼──► Multi-View Hub ──► Floating PiP Window
-Tab video #4 ──────┘
-```
-
-## 🖥️ Trình duyệt tương thích
-
-- Google Chrome
-- Microsoft Edge
-- Brave
-
-Cần phiên bản trình duyệt hỗ trợ các API PiP liên quan. Hành vi có thể khác nhau giữa các phiên bản Chromium và website phát video.
-
-## ⚠️ Giới hạn hiện tại
-
-- Multi-PiP ưu tiên **YouTube và HTML5 video** tương thích; một số website có iframe đặc biệt hoặc DRM có thể không hoạt động.
-- Luồng video bổ sung phải qua capture và WebRTC, vì vậy **chất lượng, độ trễ và mức sử dụng tài nguyên** có thể khác với video gốc.
-- Phụ đề ở các video bổ sung phụ thuộc cách website render subtitle; không bảo đảm mọi subtitle được truyền đầy đủ.
-- Nếu tab gốc giữ vai trò Host bị đóng, phiên PiP/Hub có thể bị ảnh hưởng; hiện chưa hỗ trợ chuyển Host liên tục mà không gián đoạn.
-- Update checker **chỉ kiểm tra và dẫn đến phiên bản mới**, không tự cài đặt.
-
-## ❓ FAQ
-
-**Vì sao bấm extension mà không có gì xảy ra?**  
-Trang hiện tại có thể chưa có video phù hợp, hoặc trình phát không cho phép extension truy cập.
-
-**Có cần Share Tab thủ công không?**  
-Không trong luồng sử dụng Multi-PiP đã hỗ trợ.
-
-**Vì sao video thứ hai có thể kém nét hơn?**  
-Vì các video bổ sung được truyền qua capture/WebRTC; chất lượng chịu tác động bởi đường truyền, tài nguyên máy và cách trình duyệt mã hóa luồng.
-
-**Extension có tự nâng cấp không?**  
-Chưa. Vào **Options → Updates** để kiểm tra phiên bản rồi nâng cấp thủ công.
-
-## 🗺️ Hướng phát triển
-
-Các hướng **đang xem xét**, chưa phải tính năng đã phát hành:
-
-- Cải thiện độ nét và tính ổn định của các luồng video bổ sung.
-- Nghiên cứu khả năng phục hồi/chuyển Host khi tab đầu bị đóng.
-- Mở rộng khả năng tương thích với video HTML5 và phụ đề.
-- Tối ưu trải nghiệm Multi-View và cơ chế cập nhật.
-
-## 🐛 Phản hồi & hỗ trợ
-
-Gặp lỗi hoặc có đề xuất? Hãy tạo [GitHub Issue](https://github.com/viettd14/Smart-PiP-Extension-Chromium/issues), kèm trình duyệt, phiên bản, website phát video và bước tái hiện (tránh chia sẻ dữ liệu riêng tư).
+Thông tin thay đổi theo từng phiên bản được cập nhật tại [**GitHub Releases**](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases).
 
 ---
 
 <div align="center">
 
-**Developed by [Việt Trần](https://github.com/viettd14)**  
-**Smart PiP · v2.0.0 Stable**
-
-⭐ Nếu dự án hữu ích, bạn có thể Star repository để theo dõi các bản cập nhật.
+**Smart PiP** · Developed by **Việt Trần**
 
 </div>
