@@ -4,7 +4,7 @@
 
 **Xem nhiều video. Trong một cửa sổ nổi. Không gián đoạn công việc.**
 
-Tiện ích Picture-in-Picture dành cho trình duyệt Chromium, hỗ trợ gom tối đa **4 video** vào một giao diện Multi-View.
+Tiện ích Picture-in-Picture dành cho trình duyệt Chromium, hỗ trợ gom nhiều video vào một giao diện (Multi-View).
 
 [![Latest Release](https://img.shields.io/github/v/release/viettd14/Smart-PiP-Extension-Chromium?label=Stable%20Release)](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases/latest)
 ![Platform](https://img.shields.io/badge/Platform-Chromium-4285F4)
