@@ -4,7 +4,7 @@
 
 ### Multi-Video Picture-in-Picture for Chromium Browsers
 
-**Xem tối đa 4 video cùng lúc trong một cửa sổ nổi — không cần chuyển qua lại giữa các tab.**
+**Xem được nhiều video cùng lúc trong một cửa sổ PIP.**
 
 [![Version](https://img.shields.io/badge/version-v2.0.0-blue?style=flat-square)](https://github.com/viettd14/Smart-PiP-Extension-Chromium/releases/tag/v2.0.0)
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-097969?style=flat-square)
