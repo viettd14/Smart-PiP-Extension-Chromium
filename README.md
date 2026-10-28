@@ -27,11 +27,15 @@ Phù hợp khi bạn muốn theo dõi nhiều luồng nội dung mà không ph�
 | | Tính năng | Mô tả |
 |---|---|---|
 | 🪟 | **Cửa sổ nổi** | Giữ video hiển thị trong khi làm việc ở tab khác. |
-| 🎬 | **Multi-PiP (tối đa 4 video)** | Gom các video tương thích vào cùng một cửa sổ Multi-View. |
+| 🎬 | **Multi-PiP** | Gom các video tương thích vào cùng một cửa sổ Multi-View. |
 | 🖱️ | **Thao tác nhanh** | Thêm video từ các tab tương thích bằng biểu tượng extension. |
 | ⏯️ | **Điều khiển phát** | Play/Pause, tua, âm lượng và tốc độ phát; mức hỗ trợ tùy video. |
 | 💬 | **Phụ đề** | Ưu tiên hiển thị phụ đề trên YouTube và một số trình phát HTML5 tương thích. |
 | 🔄 | **Kiểm tra cập nhật** | Kiểm tra phiên bản mới thông qua GitHub Releases. |
+
+DEMO MULTI-VIEW
+<img width="936" height="542" alt="image" src="https://github.com/user-attachments/assets/7a4c7ab2-d97a-4219-8763-3dd630d9c8b5" />
+
 
 ## 📥 Cài đặt
 
